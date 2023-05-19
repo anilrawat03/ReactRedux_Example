@@ -14,7 +14,6 @@ const Counter = () => {
         dispatch(getproduct())
         dispatch(counterIncrement(data))
     }
-
     const decrement = (data) => {
         dispatch(counterDecrement(data))
     }
