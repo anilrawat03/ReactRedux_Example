@@ -1,0 +1,31 @@
+export const INCREMENTVALUE="INCREMENTVALUE";
+export const DECREMENTVALUE="DECREMENTVALUE";
+
+
+
+export const userActionTypes={
+    GETUSERLIST:"GETUSERLIST",
+    GET_USERS_SUCCESS:"GET_USERS_SUCCESS",
+    GET_USERS_REQUESTED:"GET_USERS_REQUESTED"
+}  
+
+export const commonActionTypes={
+  LOADERSTART_STOP:"LOADERSTART_STOP",
+}
+export const productActionTypes=
+{
+  GET_PRODUCTS:"GETPRODUCTS",
+  GET_PRODUCT_SUCCESS:"GET_PRODUCT_SUCCESS"
+}
+export const authenticationActionTypes=
+{
+LOGIN_USER:"LOGINUSER",
+LOGIN_SUCCESS:"LOGINSUCCESS"
+};
+
+
+export const storeActionTypes={
+  GET_STORES:"GET_STORES",
+  GET_STORES_SUCCESS:"GET_STORES_SUCCESS",
+  GET_STORE_DETAIL:"GET_STORE_DETAIL"
+}
